@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mayureshnaidu\\HTTP5125\\assignment2\\assignment2.csproj": {}
+    "/Users/mayureshnaidu/Desktop/Humber/http5125/week4/assignment2/assignment2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mayureshnaidu\\HTTP5125\\assignment2\\assignment2.csproj": {
+    "/Users/mayureshnaidu/Desktop/Humber/http5125/week4/assignment2/assignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mayureshnaidu\\HTTP5125\\assignment2\\assignment2.csproj",
+        "projectUniqueName": "/Users/mayureshnaidu/Desktop/Humber/http5125/week4/assignment2/assignment2.csproj",
         "projectName": "assignment2",
-        "projectPath": "C:\\Users\\mayureshnaidu\\HTTP5125\\assignment2\\assignment2.csproj",
-        "packagesPath": "C:\\Users\\mayureshnaidu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mayureshnaidu\\HTTP5125\\assignment2\\obj\\",
+        "projectPath": "/Users/mayureshnaidu/Desktop/Humber/http5125/week4/assignment2/assignment2.csproj",
+        "packagesPath": "/Users/mayureshnaidu/.nuget/packages/",
+        "outputPath": "/Users/mayureshnaidu/Desktop/Humber/http5125/week4/assignment2/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mayureshnaidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mayureshnaidu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -66,6 +60,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
