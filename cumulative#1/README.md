@@ -21,12 +21,3 @@ This project is built using **ASP.NET Core Web API and MVC** with a **MySQL** da
 | **GET** | `/api/TeacherAPI/ListTeachers/{SearchKey}` | Fetch a teacher by a keyword |
 | **POST** | `/api/TeacherAPI/AddTeacher` | Add a new teacher |
 | **DELETE** | `/api/TeacherAPI/DeleteTeacher/{TeacherID}` | Delete a teacher by ID |
-
-
-## Future Enhancements
-- Add **Update functionality** for teachers.
-- Improve **styling and UI enhancements and form validation.**.
-- Fix **Search** option to find specific teacher.
-- Update Teacher ID correctly after adding and deleting teacher.
-- Add **Students and Course** based on CRUD operations.
-  
