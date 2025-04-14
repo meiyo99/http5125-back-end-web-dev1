@@ -18,8 +18,9 @@ This project is built using **ASP.NET Core Web API and MVC** with a **MySQL** da
 |--------|---------|-------------|
 | **GET** | `/api/TeacherAPI/ListTeachers` | Fetch all teachers |
 | **GET** | `/api/TeacherAPI/FindTeacher/{id}` | Fetch a teacher by ID |
+| **GET** | `/api/TeacherAPI/ListTeachers/{SearchKey}` | Fetch a teacher by a keyword |
 | **POST** | `/api/TeacherAPI/AddTeacher` | Add a new teacher |
-| **DELETE** | `/api/TeacherAPI/DeleteTeacher/{id}` | Delete a teacher by ID |
+| **DELETE** | `/api/TeacherAPI/DeleteTeacher/{TeacherID}` | Delete a teacher by ID |
 
 
 ## Future Enhancements
