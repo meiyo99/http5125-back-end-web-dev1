@@ -1,1 +1,31 @@
+# Cumulative-Project
+## Teachers MVP - ASP.NET Core Web API & MVC
 
+## Description
+This project is built using **ASP.NET Core Web API and MVC** with a **MySQL** database. It is a **Minimum Viable Product (MVP)** that focuses on the **Teachers** table of the provided **School Database**. We can use it to **READ**, **ADD**, and **DELETE** teacher details.
+
+## Features
+- **ASP.NET Core Web API** for fetching teacher data.
+- **MVC Pages** for listing and displaying teacher details.
+- **MySQL Integration** using `MySql.Data.MySqlClient`.
+- **Structured Code** with separate **Controllers, Models, and Views**.
+- **Read**: Fetch teacher data via API and display in MVC views.
+-  **Add**: Create new teachers via API or form submission.
+-  **Delete**: Remove teachers via API or MVC confirmation page.
+
+## API Endpoints
+| Method | Endpoint | Description | 
+|--------|---------|-------------|
+| **GET** | `/api/TeacherAPI/ListTeachers` | Fetch all teachers |
+| **GET** | `/api/TeacherAPI/FindTeacher/{id}` | Fetch a teacher by ID |
+| **POST** | `/api/TeacherAPI/AddTeacher` | Add a new teacher |
+| **DELETE** | `/api/TeacherAPI/DeleteTeacher/{id}` | Delete a teacher by ID |
+
+
+## Future Enhancements
+- Add **Update functionality** for teachers.
+- Improve **styling and UI enhancements and form validation.**.
+- Fix **Search** option to find specific teacher.
+- Update Teacher ID correctly after adding and deleting teacher.
+- Add **Students and Course** based on CRUD operations.
+  
